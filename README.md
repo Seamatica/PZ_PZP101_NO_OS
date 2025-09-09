@@ -5,3 +5,5 @@
     - Find your specific path for settings64.bat   
 - source PZ_PZP101_NO_OS.tcl
 
+### Once the project builds move the "PZ_PZP101_NO_OS.sdk" to the PZ_PZP101_NO_OS folder
+
