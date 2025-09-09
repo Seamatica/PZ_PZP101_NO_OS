@@ -1,0 +1,1122 @@
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+14:37:06 **** Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ad9361.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ad9361.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ad9361.d" -MT"src/ad9361.o" -o "src/ad9361.o" "../src/ad9361.c"
+In file included from ../src/platform.h:46,
+                 from ../src/ad9361.c:49:
+../src/ad9361.c: In function 'ad9361_load_gt':
+../src/ad9361.c:1413:26: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  dev_dbg(&phy->spi->dev, "%s: frequency %"PRIu64" (band %d)",
+                          ^~~~~~~~~~~~~~~~~
+   __func__, freq, band);
+                   ~~~~    
+../src/util.h:77:52: note: in definition of macro 'dev_dbg'
+ #define dev_dbg(dev, format, ...) ({ if (0) printf(format, ## __VA_ARGS__); })
+                                                    ^~~~~~
+../src/ad9361.c: In function 'set_split_table_gain':
+../src/ad9361.c:2115:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int32_t' {aka 'long int'} [-Wformat=]
+   dev_err(dev, "Invalid gain %d, supported range [%d - %d]\n",
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    rx_gain->gain_db, phy->gt_info[ad9361_gt(phy)].
+    ~~~~~~~~~~~~~~~~
+../src/util.h:72:45: note: in definition of macro 'dev_err'
+ #define dev_err(dev, format, ...)  ({printf(format, ## __VA_ARGS__);printf("\n"); })
+                                             ^~~~~~
+../src/ad9361.c: In function 'set_full_table_gain':
+../src/ad9361.c:2159:16: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int32_t' {aka 'long int'} [-Wformat=]
+   dev_err(dev, "Invalid gain %d, supported range [%d - %d]\n",
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    rx_gain->gain_db, phy->gt_info[ad9361_gt(phy)].
+    ~~~~~~~~~~~~~~~~
+../src/util.h:72:45: note: in definition of macro 'dev_err'
+ #define dev_err(dev, format, ...)  ({printf(format, ## __VA_ARGS__);printf("\n"); })
+                                             ^~~~~~
+'Finished building: ../src/ad9361.c'
+' '
+'Building file: ../src/ad9361_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ad9361_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ad9361_api.d" -MT"src/ad9361_api.o" -o "src/ad9361_api.o" "../src/ad9361_api.c"
+'Finished building: ../src/ad9361_api.c'
+' '
+'Building file: ../src/ad9361_conv.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ad9361_conv.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ad9361_conv.d" -MT"src/ad9361_conv.o" -o "src/ad9361_conv.o" "../src/ad9361_conv.c"
+In file included from ../src/platform.h:46,
+                 from ../src/ad9361_conv.c:46:
+../src/ad9361_conv.c: In function 'ad9361_dig_tune':
+../src/ad9361_conv.c:514:26: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  dev_dbg(&phy->spi->dev, "%s: freq %u flags 0x%X\n", __func__,
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+   max_freq, flags);
+   ~~~~~~~~                
+../src/util.h:77:52: note: in definition of macro 'dev_dbg'
+ #define dev_dbg(dev, format, ...) ({ if (0) printf(format, ## __VA_ARGS__); })
+                                                    ^~~~~~
+'Finished building: ../src/ad9361_conv.c'
+' '
+'Building file: ../src/adc_core.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adc_core.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adc_core.d" -MT"src/adc_core.o" -o "src/adc_core.o" "../src/adc_core.c"
+'Finished building: ../src/adc_core.c'
+' '
+'Building file: ../src/command.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/command.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/command.d" -MT"src/command.o" -o "src/command.o" "../src/command.c"
+'Finished building: ../src/command.c'
+' '
+'Building file: ../src/console.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/console.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/console.d" -MT"src/console.o" -o "src/console.o" "../src/console.c"
+../src/console.c: In function 'int_to_str':
+../src/console.c:141:2: warning: value computed is not used [-Wunused-value]
+  *buffer_ptr++;
+  ^~~~~~~~~~~~~
+'Finished building: ../src/console.c'
+' '
+'Building file: ../src/dac_core.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dac_core.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dac_core.d" -MT"src/dac_core.o" -o "src/dac_core.o" "../src/dac_core.c"
+'Finished building: ../src/dac_core.c'
+' '
+'Building file: ../src/gpsdo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpsdo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpsdo.d" -MT"src/gpsdo.o" -o "src/gpsdo.o" "../src/gpsdo.c"
+'Finished building: ../src/gpsdo.c'
+' '
+'Building file: ../src/irq_setup.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/irq_setup.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/irq_setup.d" -MT"src/irq_setup.o" -o "src/irq_setup.o" "../src/irq_setup.c"
+'Finished building: ../src/irq_setup.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:892:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:891:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:890:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:889:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:888:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:887:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:885:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:884:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:883:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:882:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:881:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:880:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:802:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:801:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:800:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_hw.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_hw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_hw.d" -MT"src/platform_hw.o" -o "src/platform_hw.o" "../src/platform_hw.c"
+'Finished building: ../src/platform_hw.c'
+' '
+'Building file: ../src/uart_com.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_com.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/uart_com.d" -MT"src/uart_com.o" -o "src/uart_com.o" "../src/uart_com.c"
+'Finished building: ../src/uart_com.c'
+' '
+'Building file: ../src/util.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/util.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/util.d" -MT"src/util.o" -o "src/util.o" "../src/util.c"
+'Finished building: ../src/util.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268096	   5880	  23888	 297864	  48b88	test.elf
+'Finished building: test.elf.size'
+' '
+14:43:28 **** Incremental Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:44:30 **** Auto Build of project test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+14:45:03 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/adc_core.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adc_core.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adc_core.d" -MT"src/adc_core.o" -o "src/adc_core.o" "../src/adc_core.c"
+'Finished building: ../src/adc_core.c'
+' '
+'Building file: ../src/dac_core.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dac_core.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dac_core.d" -MT"src/dac_core.o" -o "src/dac_core.o" "../src/dac_core.c"
+'Finished building: ../src/dac_core.c'
+' '
+'Building file: ../src/gpsdo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpsdo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpsdo.d" -MT"src/gpsdo.o" -o "src/gpsdo.o" "../src/gpsdo.c"
+'Finished building: ../src/gpsdo.c'
+' '
+'Building file: ../src/irq_setup.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/irq_setup.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/irq_setup.d" -MT"src/irq_setup.o" -o "src/irq_setup.o" "../src/irq_setup.c"
+'Finished building: ../src/irq_setup.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:892:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:891:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:890:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:889:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:888:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:887:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:885:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:884:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:883:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:882:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:881:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:880:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:802:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:801:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:800:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_hw.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_hw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_hw.d" -MT"src/platform_hw.o" -o "src/platform_hw.o" "../src/platform_hw.c"
+'Finished building: ../src/platform_hw.c'
+' '
+'Building file: ../src/uart_com.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_com.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/uart_com.d" -MT"src/uart_com.o" -o "src/uart_com.o" "../src/uart_com.c"
+'Finished building: ../src/uart_com.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268100	   5880	  23888	 297868	  48b8c	test.elf
+'Finished building: test.elf.size'
+' '
+14:45:09 **** Incremental Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:46:45 **** Incremental Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:47:42 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:892:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:891:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:890:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:889:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:888:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:887:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:885:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:884:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:883:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:882:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:881:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:880:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:802:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:801:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:800:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268100	   5880	  23888	 297868	  48b8c	test.elf
+'Finished building: test.elf.size'
+' '
+14:47:49 **** Incremental Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:33:51 **** Auto Build of project test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_4/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+15:34:16 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/adc_core.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adc_core.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adc_core.d" -MT"src/adc_core.o" -o "src/adc_core.o" "../src/adc_core.c"
+'Finished building: ../src/adc_core.c'
+' '
+'Building file: ../src/dac_core.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dac_core.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dac_core.d" -MT"src/dac_core.o" -o "src/dac_core.o" "../src/dac_core.c"
+'Finished building: ../src/dac_core.c'
+' '
+'Building file: ../src/gpsdo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpsdo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpsdo.d" -MT"src/gpsdo.o" -o "src/gpsdo.o" "../src/gpsdo.c"
+'Finished building: ../src/gpsdo.c'
+' '
+'Building file: ../src/irq_setup.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/irq_setup.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/irq_setup.d" -MT"src/irq_setup.o" -o "src/irq_setup.o" "../src/irq_setup.c"
+'Finished building: ../src/irq_setup.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:892:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:891:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:890:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:889:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:888:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:887:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:885:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:884:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:883:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:882:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:881:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:880:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:802:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:801:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:800:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_hw.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_hw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_hw.d" -MT"src/platform_hw.o" -o "src/platform_hw.o" "../src/platform_hw.c"
+'Finished building: ../src/platform_hw.c'
+' '
+'Building file: ../src/uart_com.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_com.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/uart_com.d" -MT"src/uart_com.o" -o "src/uart_com.o" "../src/uart_com.c"
+'Finished building: ../src/uart_com.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268096	   5896	  23888	 297880	  48b98	test.elf
+'Finished building: test.elf.size'
+' '
+15:34:52 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:894:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:893:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:892:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:891:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:890:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:889:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:887:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:886:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:885:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:884:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:883:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:882:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:804:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:803:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:802:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268096	   5896	  23888	 297880	  48b98	test.elf
+'Finished building: test.elf.size'
+' '
+15:37:30 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:896:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:895:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:894:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:893:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:892:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:891:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:889:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:888:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:887:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:886:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:885:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:884:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:806:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:805:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:804:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268096	   5896	  23888	 297880	  48b98	test.elf
+'Finished building: test.elf.size'
+' '
+15:37:51 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:896:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:895:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:894:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:893:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:892:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:891:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:889:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:888:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:887:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:886:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:885:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:884:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:806:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:805:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:804:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268096	   5896	  23904	 297896	  48ba8	test.elf
+'Finished building: test.elf.size'
+' '
+15:44:58 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'ConfigureNetworkParameters':
+../src/main.c:175:52: error: 'DEVICE_ID' undeclared (first use in this function); did you mean 'SPI_DEVICE_ID'?
+     xil_printf(" > Device ID set to:  0x%04X\n\r", DEVICE_ID);
+                                                    ^~~~~~~~~
+                                                    SPI_DEVICE_ID
+../src/main.c:175:52: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: In function 'main':
+../src/main.c:902:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:901:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:900:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:899:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:898:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:897:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:895:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:894:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:893:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:892:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:891:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:890:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:812:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:811:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:810:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:62: src/main.o] Error 1
+15:45:27 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:902:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:901:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:900:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:899:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:898:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:897:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:895:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:894:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:893:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:892:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:891:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:890:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:812:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:811:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:810:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268128	   5896	  23904	 297928	  48bc8	test.elf
+'Finished building: test.elf.size'
+' '
+15:48:35 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:907:11: warning: unused variable 'prev_word_31_0' [-Wunused-variable]
+  uint32_t prev_word_31_0    = 0;
+           ^~~~~~~~~~~~~~
+../src/main.c:906:11: warning: unused variable 'prev_word_63_32' [-Wunused-variable]
+  uint32_t prev_word_63_32   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:905:11: warning: unused variable 'prev_word_95_64' [-Wunused-variable]
+  uint32_t prev_word_95_64   = 0;
+           ^~~~~~~~~~~~~~~
+../src/main.c:904:11: warning: unused variable 'prev_word_127_96' [-Wunused-variable]
+  uint32_t prev_word_127_96  = 0;
+           ^~~~~~~~~~~~~~~~
+../src/main.c:903:11: warning: unused variable 'prev_word_159_128' [-Wunused-variable]
+  uint32_t prev_word_159_128 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:902:11: warning: unused variable 'prev_word_191_160' [-Wunused-variable]
+  uint32_t prev_word_191_160 = 0;
+           ^~~~~~~~~~~~~~~~~
+../src/main.c:900:11: warning: variable 'word_31_0' set but not used [-Wunused-but-set-variable]
+  uint32_t word_31_0;
+           ^~~~~~~~~
+../src/main.c:899:11: warning: variable 'word_63_32' set but not used [-Wunused-but-set-variable]
+  uint32_t word_63_32;
+           ^~~~~~~~~~
+../src/main.c:898:11: warning: variable 'word_95_64' set but not used [-Wunused-but-set-variable]
+  uint32_t word_95_64;
+           ^~~~~~~~~~
+../src/main.c:897:11: warning: variable 'word_127_96' set but not used [-Wunused-but-set-variable]
+  uint32_t word_127_96;
+           ^~~~~~~~~~~
+../src/main.c:896:11: warning: variable 'word_159_128' set but not used [-Wunused-but-set-variable]
+  uint32_t word_159_128;
+           ^~~~~~~~~~~~
+../src/main.c:895:11: warning: variable 'word_191_160' set but not used [-Wunused-but-set-variable]
+  uint32_t word_191_160;
+           ^~~~~~~~~~~~
+../src/main.c:817:15: warning: unused variable 'TotalRecvCnt' [-Wunused-variable]
+  unsigned int TotalRecvCnt = 0;
+               ^~~~~~~~~~~~
+../src/main.c:816:15: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+  unsigned int ReceivedCount = 0;
+               ^~~~~~~~~~~~~
+../src/main.c:815:6: warning: unused variable 'uartRecvBufferPtr' [-Wunused-variable]
+  u8 *uartRecvBufferPtr = uartRecvBufferMain;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/ad9361.o ./src/ad9361_api.o ./src/ad9361_conv.o ./src/adc_core.o ./src/command.o ./src/console.o ./src/dac_core.o ./src/gpsdo.o ./src/irq_setup.o ./src/main.o ./src/platform.o ./src/platform_hw.o ./src/uart_com.o ./src/util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 268192	   5896	  23904	 297992	  48c08	test.elf
+'Finished building: test.elf.size'
+' '

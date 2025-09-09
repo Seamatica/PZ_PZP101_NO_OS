@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jan 10 03:52:21 2023
+# Process ID: 25464
+# Current directory: E:/SDR_Pluto/PlutoSDR_HDL/library/util_dec256sinc24b
+# Command line: vivado.exe -mode batch -source util_dec256sinc24b_ip.tcl
+# Log file: E:/SDR_Pluto/PlutoSDR_HDL/library/util_dec256sinc24b/vivado.log
+# Journal file: E:/SDR_Pluto/PlutoSDR_HDL/library/util_dec256sinc24b\vivado.jou
+#-----------------------------------------------------------
+source util_dec256sinc24b_ip.tcl
