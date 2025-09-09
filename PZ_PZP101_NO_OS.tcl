@@ -23,40 +23,6 @@
 # 2. The following source(s) files that were local or imported into the original project.
 #    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
 #
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/magnitude_approx.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/sources_1/new/mavg_fir.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/new/mux2.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/new/mux4.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/sources_1/new/mode_ac_edge_detector.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/sources_1/new/pulse_reconstruct.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/new/mode_ac_intr_detector.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/new/pulse_width_checker.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/sources_1/new/pps_adsb_timestamp.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/new/package_message_1030.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/RTL8211_Config_IP_0.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/arp.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/arp_rx.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/arp_tx.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/crc32.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/gmii_to_rgmii.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/mdio_ctrl.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/mdio_dri.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/mdio_rw_test.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/net_ctrl.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/net_rstn.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/rgmii_rx.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/rgmii_tx.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/udp.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/udp_rx.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/temporary_holder/udp_tx.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/Downloads/net_loop_udp.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/new/pps_drift.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/common/ad_iobuf.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/hdl/system_wrapper.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/PZ_PZP101_NO_OS/system_top.v"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/constrs_1/imports/PZ_PZP201_NO_OS/system_constr.xdc"
-#    "C:/Users/amroe/OneDrive/Desktop/repos/pz101_NO_OS_PPS_1030/pz101_NO_OS_PPS_1030_intr_udp/PZ_PZP101_NO_OS.srcs/sources_1/imports/new/preamble_detector.sv"
-#
 # 3. The following remote source files that were added to the original project:-
 #
 #    <none>
